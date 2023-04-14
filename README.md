@@ -18,6 +18,14 @@ deliver safe and effective Natural Language Processing (NLP) models.
 
 PyPI: [https://pypi.org/project/nlptest/](https://pypi.org/project/nlptest/)
 
+---
+
+:fire: The conda-forge recipe was generated with [Conda-Forger App](https://sugatoray-conda-forger.streamlit.app/).
+
+:point_right: [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://sugatoray-conda-forger.streamlit.app/)
+
+[_streamlit-conda-forger-app]: https://sugatoray-conda-forger.streamlit.app/
+
 
 Current build status
 ====================
@@ -153,5 +161,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@johnsnowlabs](https://github.com/johnsnowlabs/)
+* [@luca-martial](https://github.com/luca-martial/)
 * [@sugatoray](https://github.com/sugatoray/)
 
