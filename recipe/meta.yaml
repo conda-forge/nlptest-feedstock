@@ -10,9 +10,9 @@ source:
   sha256: 4d56528a2af3bbc335a98f81b105e21d8cfada220939efbe2d43ac8abae26b7a
 
 build:
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
 
 requirements:
   host:
@@ -55,3 +55,6 @@ about:
 extra:
   recipe-maintainers:
     - sugatoray
+    # maintainers from upstream
+    - johnsnowlabs
+    - luca-martial
