@@ -28,10 +28,32 @@ requirements:
     - pydantic
     - nest-asyncio
 
+test:
+  imports:
+    - nlptest
+  commands:
+    - pip check
+  requires:
+    - pip
+
 about:
   home: https://github.com/JohnSnowLabs/nlptest/
-  license: Apache License 2.0
-  license_family: APACHE
+  summary: John Snow Labs provides a library for delivering safe & effective NLP models.
+  license: Apache-2.0
+  license_file: LICENSE
   license_url: https://github.com/JohnSnowLabs/nlptest/blob/main/LICENSE
-  description: John Snow Labs' NLP Test is a Python library for testing NLP models and datasets. It comes with over 50 tests covering fairness, robustness, accuracy, bias and representation for named entity recognition and text classification.
-  summary: Deliver safe & effective NLP models in a few lines of code.
+  description: |
+      `nlptest` is an open-source Python library designed to help developers
+      deliver safe and effective Natural Language Processing (NLP) models.
+  
+      PyPI: [https://pypi.org/project/nlptest/](https://pypi.org/project/nlptest/)
+    
+  dev_url: https://github.com/JohnSnowLabs/nlptest/
+  doc_url: https://nlptest.org/docs/pages/docs/install
+
+extra:
+  recipe-maintainers:
+    - sugatoray
+    - johnsnowlab
+    - luca-martial
+    - ArshaanNazir
