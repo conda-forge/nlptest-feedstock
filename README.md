@@ -3,7 +3,7 @@ About nlptest-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nlptest-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/JohnSnowLabs/nlptest/
+Home: https://www.nlptest.org
 
 Package license: [Apache-2.0](https://github.com/JohnSnowLabs/nlptest/blob/main/LICENSE)
 
@@ -17,6 +17,12 @@ Documentation: https://nlptest.org/docs/pages/docs/install
 deliver safe and effective Natural Language Processing (NLP) models.
 
 PyPI: [https://pypi.org/project/nlptest/](https://pypi.org/project/nlptest/)
+
+---
+:fire: The conda-forge recipe was generated with [Conda-Forger App](https://sugatoray-conda-forger.streamlit.app/).
+
+:point_right: [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://sugatoray-conda-forger.streamlit.app/)
+[_streamlit-conda-forger-app]: https://sugatoray-conda-forger.streamlit.app/
 
 
 Current build status
