@@ -1,5 +1,5 @@
 {% set name = "nlptest" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nlptest-{{ version }}.tar.gz
-  sha256: 36579297e6e2ee9cbcc687ad7fb599b4c647935a2eb220aae7b3f4d0f7dc00ec
+  sha256: 0c8f3e5a8ea8b2333e7b4f740219bdcc275daf02cae45ce7342c7b9b63a8e049
 
 build:
   number: 0
@@ -54,10 +54,10 @@ about:
 
     ---
     :fire: The conda-forge recipe was generated with [Conda-Forger App](https://sugatoray-conda-forger.streamlit.app/).
-    
+
     :point_right: [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://sugatoray-conda-forger.streamlit.app/)
     [_streamlit-conda-forger-app]: https://sugatoray-conda-forger.streamlit.app/
-    
+
   dev_url: https://github.com/JohnSnowLabs/nlptest/
   doc_url: https://nlptest.org/docs/pages/docs/install
 
