@@ -38,6 +38,8 @@ requirements:
     - inflect
     - rouge-score
     - typing-extensions <4.6.0
+    - sympy
+    - pillow
 
 
 test:
