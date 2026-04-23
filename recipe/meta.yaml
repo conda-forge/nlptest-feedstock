@@ -8,21 +8,21 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nlptest-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/nlptest-{{ version }}.tar.gz
   sha256: 556ac72ef3e8a1c1851bbfe8d22e4312f01e7607d6d3a44775279766744ff9e2
 
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.7,<3.12
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.7,<3.12
+    - python >={{ python_min }},<3.12
     - numpy
     - pandas
     - scikit-learn
@@ -49,6 +49,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://www.nlptest.org
